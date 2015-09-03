@@ -1,23 +1,52 @@
-#center_txt {
+body{
+    background: linear-gradient(to bottom, #d3ff33, #05180c); ;
+}
+
+.pict{
     width: 300px;
     height: 300px;
+
+    float:left;
+
+    text-shadow: 0 0 4px #060d5b;
+    color: white;
+    opacity: 0.5;
+}
+
+.pict:hover{
+    opacity: 1;
+    background-size:100%
+}
+
+#first_pic {
+    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+}
+
+#sec_pic{
+    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+}
+
+#third_pic{
+    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+}
+
+#fourth_pic {
+    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+}
+
+#fifth_pic{
+    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+}
+
+#sixth_pic{
+    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+}
+#outer_div{
+    width: 900px;
+    height: 600px;
+    border: 2px solid black;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0 0 4px #060d5b;
-    color: white;
-    opacity: 0.5;
-    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
-
-
-
-}
-
-
-    /*border: dotted black;*/
-
-#center_txt:hover{
-    opacity: 1;
-    background-size:100%
 }
