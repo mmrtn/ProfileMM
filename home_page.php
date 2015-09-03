@@ -9,8 +9,6 @@
 <body>
     <div id="center_txt">Terete</div>
 
-
 </body>
 </html>
-
 
