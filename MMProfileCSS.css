@@ -8,7 +8,9 @@
     text-shadow: 0 0 4px #060d5b;
     color:white;
     background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+    opacity:0.5;
     /*border: dotted black;*/
-
-
+}
+#center_txt:hover{
+    opacity: 1;
 }
