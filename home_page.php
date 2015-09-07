@@ -1,4 +1,5 @@
 <html>
+<!DOCTYPE html>
 <!-- Martini koduleht-->
 <head>
     <link type="text/css" rel="stylesheet" href="MMProfileCSS.css"/>
