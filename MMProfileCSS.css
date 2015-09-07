@@ -1,45 +1,61 @@
+/*Martini kodulehe CSS*/
 body{
-    background: linear-gradient(to bottom, #d3ff33, #05180c); ;
-}
+    background: -webkit-linear-gradient(0deg, #283048 10%, #859398 90%);
+    background:    -moz-linear-gradient(0deg, #283048 10%, #859398 90%);
+    background:     -ms-linear-gradient(0deg, #283048 10%, #859398 90%);
+    background:      -o-linear-gradient(0deg, #283048 10%, #859398 90%);
+    background:         linear-gradient(0deg, #283048 10%, #859398 90%);
+ }
+
 
 .pict{
+    text-shadow: 0 0 5px #c51214;
+    color: #ffffff;
+    font-size: 2.5em;
+
+    position: relative;
     width: 300px;
     height: 300px;
-
     float:left;
-
-    text-shadow: 0 0 4px #060d5b;
-    color: white;
     opacity: 0.5;
-}
 
+
+
+    filter: grayscale(1);
+    background-repeat: no-repeat;
+
+
+}
 .pict:hover{
     opacity: 1;
-    background-size:100%
+    background-size:105%;
+    background-repeat: no-repeat;
+
+    filter: grayscale(0);
 }
 
 #first_pic {
-    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+    background-image: url("https://s3.amazonaws.com/lowres.cartoonstock.com/sport-fish-snowboard-snowboarders-snowboards-skiing-smb091229_low.jpg");
 }
 
 #sec_pic{
-    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/ca/47/94/ca4794cfada458717c7aa99093a1f425.jpg");
 }
 
 #third_pic{
-    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+    background-image: url("http://www.bajiroo.com/wp-content/uploads/2014/01/funny-photographer-cartoon-meme-photo.jpg");
 }
 
 #fourth_pic {
-    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+    background-image: url("https://s3.amazonaws.com/lowres.cartoonstock.com/marriage-relationships-tent-camping_site-camper-camping_trip-camp-kwan77_low.jpg");
 }
 
 #fifth_pic{
-    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+    background-image: url("https://s3.amazonaws.com/lowres.cartoonstock.com/travel-tourism-american_dining-authentic_italian_food-foodies-fine_dining-bad_food-gra091223_low.jpg");
 }
 
 #sixth_pic{
-    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+    background-image: url("https://s3.amazonaws.com/lowres.cartoonstock.com/health-beauty-poker-pokerface-face-blackjack-21-smb070808_low.jpg");
 }
 #outer_div{
     width: 900px;
@@ -49,4 +65,53 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius:6px;
+    line-height: 150px;
+    text-align: center;
+    display: inline-table;
+}
+
+h1{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Zapf Chancery, cursive;
+    text-shadow: 0 0 17px #80dcf3;
+    color: #f2f2f2;
+}
+#table{
+    width: 150px;
+    position: fixed;
+    border: 2px dotted red;
+    margin:400px 50px 0px 1125px;
+    display:none;
+    background-color:mediumvioletred;
+    box-shadow: 10px 10px 5px aqua;
+    float:left;
+    padding:10px 10px 10px 10px ;
+
+    text-decoration: none;
+
+
+
+}
+
+
+#hide{
+    display: none;
+    width: 200px;
+    height: 700px;
+    color:black;
+    background-repeat: repeat-x;
+    float: left;
+
+    white-space: normal;
+    font-family:"Times New Roman", serif;
+    font-size: 1em;
+    font-weight: normal;
+
+    list-style-type: square;
+    cursor: auto;
+    min-width: 100%;
+    max-width:100%
+
 }
