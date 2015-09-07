@@ -8,9 +8,10 @@ body{
  }
 
 
+
 .pict{
-    text-shadow: 0 0 5px #c51214;
-    color: #ffffff;
+    text-shadow: 0 0 5px #fffe14;
+    color: #000000;
     font-size: 2.5em;
 
     position: relative;
@@ -20,42 +21,45 @@ body{
     opacity: 0.5;
 
 
+    -webkit-filter: grayscale(1) contrast(1) brightness(1);
+    filter: grayscale(1) contrast(1) brightness(1);
 
-    filter: grayscale(1);
     background-repeat: no-repeat;
 
 
 }
 .pict:hover{
     opacity: 1;
-    background-size:105%;
-    background-repeat: no-repeat;
-
-    filter: grayscale(0);
+    background-repeat: no-repeat ;
+    -webkit-filter: grayscale(0) contrast(1.5);
+    filter: grayscale(0)  contrast(1.5);
+    background-size:100%;
 }
 
 #first_pic {
-    background-image: url("https://s3.amazonaws.com/lowres.cartoonstock.com/sport-fish-snowboard-snowboarders-snowboards-skiing-smb091229_low.jpg");
+    background-image: url("ASSETS/pics/snow.jpg");
 }
 
 #sec_pic{
-    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/ca/47/94/ca4794cfada458717c7aa99093a1f425.jpg");
+    background-image: url("ASSETS/pics/deve.jpg");
+}
+#sec_pic:hover{
+    background-size: 105%;
 }
 
 #third_pic{
-    background-image: url("http://www.bajiroo.com/wp-content/uploads/2014/01/funny-photographer-cartoon-meme-photo.jpg");
+    background-image: url("ASSETS/pics/camer.jpg");
 }
-
 #fourth_pic {
-    background-image: url("https://s3.amazonaws.com/lowres.cartoonstock.com/marriage-relationships-tent-camping_site-camper-camping_trip-camp-kwan77_low.jpg");
+    background-image: url("ASSETS/pics/camp.jpg");
 }
 
 #fifth_pic{
-    background-image: url("https://s3.amazonaws.com/lowres.cartoonstock.com/travel-tourism-american_dining-authentic_italian_food-foodies-fine_dining-bad_food-gra091223_low.jpg");
+    background-image: url("ASSETS/pics/fooood.jpg");
 }
 
 #sixth_pic{
-    background-image: url("https://s3.amazonaws.com/lowres.cartoonstock.com/health-beauty-poker-pokerface-face-blackjack-21-smb070808_low.jpg");
+    background-image: url("ASSETS/pics/poker.jpg");
 }
 #outer_div{
     width: 900px;
