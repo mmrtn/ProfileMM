@@ -1,10 +1,10 @@
 /*Martini kodulehe CSS*/
 body{
-    background: -webkit-linear-gradient(0deg, #283048 10%, #859398 90%);
-    background:    -moz-linear-gradient(0deg, #283048 10%, #859398 90%);
-    background:     -ms-linear-gradient(0deg, #283048 10%, #859398 90%);
-    background:      -o-linear-gradient(0deg, #283048 10%, #859398 90%);
-    background:         linear-gradient(0deg, #283048 10%, #859398 90%);
+-webkit-linear-gradient(90deg, #2c3e50 10%, #3498db 90%);
+background:    -moz-linear-gradient(0deg, #2c3e50 10%, #3498db 90%);
+background:     -ms-linear-gradient(0deg, #2c3e50 10%, #3498db 90%);
+background:      -o-linear-gradient(0deg, #2c3e50 10%, #3498db 90%);
+background:         linear-gradient(0deg, #2c3e50 10%, #3498db 90%);
  }
 
 
