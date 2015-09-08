@@ -1,23 +1,121 @@
-#center_txt {
+/*Martini kodulehe CSS*/
+body{
+-webkit-linear-gradient(90deg, #2c3e50 10%, #3498db 90%);
+background:    -moz-linear-gradient(0deg, #2c3e50 10%, #3498db 90%);
+background:     -ms-linear-gradient(0deg, #2c3e50 10%, #3498db 90%);
+background:      -o-linear-gradient(0deg, #2c3e50 10%, #3498db 90%);
+background:         linear-gradient(0deg, #2c3e50 10%, #3498db 90%);
+ }
+
+
+
+.pict{
+    text-shadow: 0 0 5px #fffe14;
+    color: #000000;
+    font-size: 2.5em;
+
+    position: relative;
     width: 300px;
     height: 300px;
+    float:left;
+    opacity: 0.5;
+
+
+    -webkit-filter: grayscale(1) contrast(1) brightness(1);
+    filter: grayscale(1) contrast(1) brightness(1);
+
+    background-repeat: no-repeat;
+
+
+}
+.pict:hover{
+    opacity: 1;
+    background-repeat: no-repeat ;
+    -webkit-filter: grayscale(0) contrast(1.5);
+    filter: grayscale(0)  contrast(1.5);
+    background-size:100%;
+}
+
+#first_pic {
+    background-image: url("ASSETS/pics/snow.jpg");
+}
+
+#sec_pic{
+    background-image: url("ASSETS/pics/deve.jpg");
+}
+#sec_pic:hover{
+    background-size: 105%;
+}
+
+#third_pic{
+    background-image: url("ASSETS/pics/camer.jpg");
+}
+#fourth_pic {
+    background-image: url("ASSETS/pics/camp.jpg");
+}
+
+#fifth_pic{
+    background-image: url("ASSETS/pics/fooood.jpg");
+}
+
+#sixth_pic{
+    background-image: url("ASSETS/pics/poker.jpg");
+}
+#outer_div{
+    width: 900px;
+    height: 600px;
+    border: 2px solid black;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0 0 4px #060d5b;
-    color: white;
-    opacity: 0.5;
-    background-image: url("https://fotokala.ee/pildid/700/1/18486.jpg");
+    border-radius:6px;
+    line-height: 150px;
+    text-align: center;
+    display: inline-table;
+}
+
+h1{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Zapf Chancery, cursive;
+    text-shadow: 0 0 17px #80dcf3;
+    color: #f2f2f2;
+}
+#table{
+    width: 150px;
+    position: fixed;
+    border: 2px dotted red;
+    margin:400px 50px 0px 1125px;
+    display:none;
+    background-color:mediumvioletred;
+    box-shadow: 10px 10px 5px aqua;
+    float:left;
+    padding:10px 10px 10px 10px ;
+
+    text-decoration: none;
 
 
 
 }
 
 
-    /*border: dotted black;*/
+#hide{
+    display: none;
+    width: 200px;
+    height: 700px;
+    color:black;
+    background-repeat: repeat-x;
+    float: left;
 
-#center_txt:hover{
-    opacity: 1;
-    background-size:100%
+    white-space: normal;
+    font-family:"Times New Roman", serif;
+    font-size: 1em;
+    font-weight: normal;
+
+    list-style-type: square;
+    cursor: auto;
+    min-width: 100%;
+    max-width:100%
+
 }
